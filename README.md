@@ -1,8 +1,8 @@
-# BABS 502 Project: Energy Forecasting at Vancouver International Airport (YVR)
+# Project: Energy Forecasting at Vancouver International Airport
 
 **Academic Assignment | Time Series Analysis & Forecasting**
 
-## 📋 Project Overview
+## Project Overview
 
 This repository contains an academic project for **BABS 502** under the instruction of **Professor Martha Essak**. The project focuses on developing forecasting models to predict monthly energy consumption at Vancouver International Airport (YVR) to assist with budget planning and contract negotiations with energy suppliers.
 
@@ -18,7 +18,7 @@ Develop accurate time series models to forecast monthly energy usage at YVR for 
 - Negotiation of favorable contracts with energy suppliers
 - Understanding patterns in energy consumption
 
-## 📊 Dataset
+## Dataset
 
 The analysis uses **14 years of historical data** (1997-2010) from the YVR database, including:
 - **Energy Use**: Monthly electricity consumption (thousands of kWh)
@@ -28,7 +28,7 @@ The analysis uses **14 years of historical data** (1997-2010) from the YVR datab
 
 **Dataset**: `Energy use at YVR.csv` (168 monthly records)
 
-## 🔬 Methodology
+## Methodology
 
 The project implements and compares multiple forecasting approaches:
 
@@ -56,7 +56,7 @@ The project implements and compares multiple forecasting approaches:
    - Multiple ARIMA specifications tested
    - Selected best model: **ARIMA(1,1,0)(0,1,1)[12]**
 
-## 📈 Key Findings
+## Key Findings
 
 - **Best Model**: ARIMA(1,1,0)(0,1,1)[12] outperformed all other methods
   - Test Set RMSE: 159.94
@@ -75,7 +75,7 @@ Project-with-R/
 └── README.md                                       # This file
 ```
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Language**: R
 - **Key Libraries**: 
@@ -83,7 +83,7 @@ Project-with-R/
   - `ggplot2` - Data visualization
   - `stats` - Statistical analysis
 
-## 📝 Academic Context
+## Academic Context
 
 **Note**: This is an academic project completed as part of coursework requirements. The analysis demonstrates proficiency in:
 - Time series decomposition and analysis
@@ -92,15 +92,8 @@ Project-with-R/
 - Residual diagnostics
 - Business interpretation of statistical results
 
-## 🔍 How to Use
 
-1. Clone this repository
-2. Open the Jupyter notebook file in JupyterLab or Jupyter Notebook
-3. Ensure you have R kernel installed for Jupyter
-4. Install required R packages: `install.packages(c("forecast", "ggplot2"))`
-5. Run the notebook cells sequentially
-
-## 📚 References
+## References
 
 - Course materials from BABS 502
 - Hyndman, R.J., & Athanasopoulos, G. (2021). Forecasting: principles and practice
