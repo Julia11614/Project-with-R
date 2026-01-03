@@ -6,7 +6,7 @@
 
 This repository contains an academic project for **BABS 502** under the instruction of **Professor Martha Essak**. The project focuses on developing forecasting models to predict monthly energy consumption at Vancouver International Airport (YVR) to assist with budget planning and contract negotiations with energy suppliers.
 
-## 👥 Team Members
+## Team Members
 
 - **Julia Krumgant** (Student ID: 40566465)
 - **Pranav Mehta** (Student ID: 19184282)
